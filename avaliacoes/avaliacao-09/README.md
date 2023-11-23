@@ -66,30 +66,36 @@ O Dockerfile é um arquivo de configuração utilizado para definir as instruç�
    
        > Lista as imagens.
 
-    8. `docker stop`:
+    7. `docker stop`:
    
        > Finaliza a execução de um contêiner.
 
-    13. `docker start`:
+    8. `docker start`:
    
         > Executa um contêiner que já existe.
 
-    15. `docker rm`:
+    9. `docker rm`:
    
         > Remove um contêiner.
 
-    17. `docker rmi`:
+    10. `docker rmi`:
    
         > Remove uma imagem.
 
-    19. `docker exec`:
+    11. `docker exec`:
    
-        Executa um novo comando em um contêiner que está em execução.
+        > Executa um novo comando em um contêiner que está em execução.
 
-    21. `docker logs`:
+    12. `docker logs`:
+   
+        > Busca os *logs* de um contêiner.
 
-    22. `docker network`:
+    13. `docker network`:
+   
+        > Gerencia redes.
 
-    23. `docker volume`:
+    14. `docker volume`:
+   
+        > Gerencia volumes.
 
 Registre as respostas a esse questionário do seu GitHub e post o Link da atividade no Classroom.
