@@ -7,49 +7,89 @@ O Dockerfile é um arquivo de configuração utilizado para definir as instruç�
 
 2. Qual comando é usado para iniciar um Dockerfile?
 
+   > `docker build .`
+
 3. Qual comando é usado para definir a imagem base no Dockerfile?
+
+   > `FROM`
 
 4. Como você adiciona arquivos locais ao sistema de arquivos do contêiner no Dockerfile?
 
+   > `COPY arquivo_local.txt /caminho/no/contêiner/`
+
 5. Como você especifica o diretório de trabalho no Dockerfile?
+
+   > `WORKDIR` 
 
 6. Qual comando é usado para executar comandos durante a criação da imagem Docker no Dockerfile?
 
+   > `RUN`
+
 7. Como você expõe portas no Dockerfile?
 
-8. Qual comando é usado para definir variáveis de ambiente no Dockerfile?
+   > `EXPOSE`
 
-9. Como você comenta linhas no Dockerfile?
+9. Qual comando é usado para definir variáveis de ambiente no Dockerfile?
 
-10. Qual comando é usado para executar a aplicação principal quando um contêiner é iniciado no Dockerfile?
+    > ``
 
-11. Responda: O Docker usa uma interface CLI para gerenciar os seus vários objetos através de comandos. O que faz os comandos abaixo:  
+10. Como você comenta linhas no Dockerfile?
+
+    > `#`
+
+11. Qual comando é usado para executar a aplicação principal quando um contêiner é iniciado no Dockerfile?
+
+    > `CMD`
+
+12. Responda: O Docker usa uma interface CLI para gerenciar os seus vários objetos através de comandos. O que faz os comandos abaixo:  
     1. `docker run`:
+   
+       > Cria e executa um contêiner.
 
     2. `docker build`:
+   
+       > Constroi uma imagem.
 
     3. `docker pull`:
+   
+       > Descarrega uma imagem do Docker hub.
 
     4. `docker push`:
+   
+       > Envia uma imagem para o Docker hub.
 
     5. `docker ps`:
+   
+       > Lista os contêineres ativos.
 
     6. `docker images`:
+   
+       > Lista as imagens.
 
-    7. `docker stop`:
+    8. `docker stop`:
+   
+       > Finaliza a execução de um contêiner.
 
-    8. `docker start`:
+    13. `docker start`:
+   
+        > Executa um contêiner que já existe.
 
-    9. `docker rm`:
+    15. `docker rm`:
+   
+        > Remove um contêiner.
 
-    10. `docker rmi`:
+    17. `docker rmi`:
+   
+        > Remove uma imagem.
 
-    11. `ndocker exec`:
+    19. `docker exec`:
+   
+        Executa um novo comando em um contêiner que está em execução.
 
-    12. `docker logs`:
+    21. `docker logs`:
 
-    13. `docker network`:
+    22. `docker network`:
 
-    14. `docker volume`:
+    23. `docker volume`:
 
 Registre as respostas a esse questionário do seu GitHub e post o Link da atividade no Classroom.
