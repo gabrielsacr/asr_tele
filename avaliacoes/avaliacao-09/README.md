@@ -31,7 +31,7 @@ O Dockerfile é um arquivo de configuração utilizado para definir as instruç�
 
 9. Qual comando é usado para definir variáveis de ambiente no Dockerfile?
 
-    > ``
+    > `ENV`.
 
 10. Como você comenta linhas no Dockerfile?
 
